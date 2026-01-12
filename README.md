@@ -72,3 +72,8 @@ npm run dev
 - Backend: Node.js + SQlite
 - Editor: Visual Studio Code
 - Images: Drawn with Gimp, static image pieces in folder /backend/clothes
+
+## Coming in the future
+- Building Dockerfile (currently not in use)
+- More clothing pieces for the avatar
+- Moving the project onto render.com
