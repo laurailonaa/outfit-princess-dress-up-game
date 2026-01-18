@@ -104,6 +104,10 @@ out
 # vuepress build output
 .vuepress/dist
 
+# other that are not yet mandatory
+.vite-cache
+Dockerfile
+
 # vuepress v2.x temp and cache directory
 .temp
 .cache
