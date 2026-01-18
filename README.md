@@ -3,8 +3,8 @@
 ## Description
 
 Outfit Princess! is a simple, web-based app where users can dress-up an avatar and mix and match different clothing pieces!
-The project is built with React (frontend), Node.js (backend) and SQLite database structure. The style of the app and digitally hand-drawn clothes
-are inspired by 2000s dress-up games and aesthetics. 
+The project is built with React, Node.js and SQLite database structure. The style of the app and digitally hand-drawn clothes
+are inspired by 2000s dress-up games and aesthetics.
 
 ## Screenshots
 
@@ -52,26 +52,26 @@ node index.js
 npm run dev
 ```
 
-7) Open the URL created (i.e http://localhost:5173)
+7) Open the URL created on the frontend window (i.e http://localhost:5173)
 
 8) Enjoy the game!
 
 ## Current features
 
 * One base avatar in the center
-* Multiple different clothing pieces (more to come in the future!):
+* Multiple clothing pieces (more to come in the future!) including:
   - 4 Hairstyles
   - 4 Shirts
   - 3 Pants
   - 1 shoes
-* Buttons for cycling through the clothing
+* Arrow buttons for cycling through the clothing
 * Image-layering so clothing layers correctly onto the avatar base
 
 ## Development tools
 - Frontend: React
 - Backend: Node.js + SQlite
 - Editor: Visual Studio Code
-- Images: Drawn with Gimp, static image pieces in folder /backend/clothes
+- Images: Drawn with Gimp, static image pieces in project's folder /backend/clothes
 
 ## Coming in the future
 - Building Dockerfile (currently not in use)
