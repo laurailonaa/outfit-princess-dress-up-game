@@ -77,3 +77,5 @@ npm run dev
 - Building Dockerfile (currently not in use)
 - More clothing pieces for the avatar
 - Moving the project onto render.com
+
+## ©Laura Shemeikka 2026
