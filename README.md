@@ -63,7 +63,7 @@ npm run dev
   - 4 Hairstyles
   - 4 Shirts
   - 3 Pants
-  - 1 shoes
+  - 4 pairs of shoes
 * Arrow buttons for cycling through the clothing
 * Image-layering so clothing layers correctly onto the avatar base
 
