@@ -12,7 +12,6 @@ are inspired by 2000s dress-up games and aesthetics.
 <img width="2487" height="1264" alt="image" src="https://github.com/user-attachments/assets/4ef4dc33-2dc6-469e-bd39-b2d0f7269b12" />
 
 ## How to use
-- Note! This is only the first preview of the project, more features and clothing pieces coming in the future!
 
 1) Clone the git repository to your computer
 
@@ -57,7 +56,8 @@ npm run dev
 8) Enjoy the game!
 
 ## Current features
-
+ Note! This is only the first preview of the project, more features and clothing pieces coming in the future!
+ 
 * One base avatar in the center
 * Multiple clothing pieces (more to come in the future!) including:
   - 4 Hairstyles
