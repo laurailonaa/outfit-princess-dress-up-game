@@ -22,6 +22,9 @@ db.serialize(() => {
     db.run('INSERT INTO clothing (filename, category, created_at) VALUES (?, ?, datetime("now"))', ['shorts.png', 'pants']);
 
     db.run('INSERT INTO clothing (filename, category, created_at) VALUES (?, ?, datetime("now"))', ['sneakers.png', 'shoes']);
+    db.run('INSERT INTO clothing (filename, category, created_at) VALUES (?, ?, datetime("now"))', ['sneakers_white.png', 'shoes']);
+    db.run('INSERT INTO clothing (filename, category, created_at) VALUES (?, ?, datetime("now"))', ['sneakers_green.png', 'shoes']);
+    db.run('INSERT INTO clothing (filename, category, created_at) VALUES (?, ?, datetime("now"))', ['boots.png', 'shoes']);
 })
 
 module.exports = db;

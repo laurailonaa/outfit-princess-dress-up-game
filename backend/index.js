@@ -7,14 +7,13 @@ const path = require("path");
 const port = process.env.PORT || 3000;
 
 app.use(cors());
-
 app.use(express.json());
 app.use('/clothes', express.static('clothes'));
 app.use("/clothing", router);
 app.use(express.static(path.join(__dirname, "public")));
 
 const shutdown = () => {
-    console.info("\nShutting down gracefully...");
+    console.info("\nClosing the server");
     db.close((err) => {
         if (err) {
             console.error("Error closing database connection:", err);
@@ -36,5 +35,5 @@ process.on("SIGTERM", shutdown); // system manager, some other application
 process.on("SIGINT", shutdown); // ctrl-c
 
 const server = app.listen(port, () => {
-    console.log(`Example app listening on port ${port}`);
+    console.log(`App listening on port ${port}`);
 })
