@@ -13,47 +13,10 @@ are inspired by 2000s dress-up games and aesthetics.
 
 ## How to use
 
-1) Clone the git repository to your computer
+The project is available on render.com:
+https://outfit-princess-dress-up-game.onrender.com/ 
 
-```
-git clone https://github.com/laurailonaa/outfit-princess-dress-up-game
-```
-
-2) Navigate to the cloned repository
-
-```
-cd outfit-princess-dress-up-game
-```
-
-3) Install dependencies
-
-```
-npm install
-```
-
-4) Navigate to backend and frontend folder on separate terminals
-
-```
-cd backend
-```
-```
-cd frontend
-```
-5) Start the backend
-
-```
-node index.js
-```
-
-6) Start the frontend
-
-```
-npm run dev
-```
-
-7) Open the URL created on the frontend window (i.e http://localhost:5173)
-
-8) Enjoy the game!
+Notice that the first loading could take a while since the project runs on free tier service.
 
 ## Current features
  Note! This is only the first preview of the project, more features and clothing pieces coming in the future!
@@ -66,6 +29,7 @@ npm run dev
   - 4 Pairs of Shoes
 * Arrow buttons for cycling through the clothing
 * Image-layering so clothing layers correctly onto the avatar base
+* Available globally through render.com
 
 ## Development tools
 - Frontend: React
@@ -74,8 +38,7 @@ npm run dev
 - Images: Drawn with Gimp, static image pieces in project's folder /backend/clothes
 
 ## Coming in the future
-- Building Dockerfile (currently not in use)
-- More clothing pieces for the avatar
-- Moving the project onto render.com
+- Styling for intuitive mobile-access
+- More clothing pieces!
 
 ## ©Laura Shemeikka 2026
